@@ -1,4 +1,3 @@
 package sealed;
 
-public final class Triangle extends Shape{
-}
+public record Triangle(Double sideA, Double sideB, Double sideC) implements Shape{}

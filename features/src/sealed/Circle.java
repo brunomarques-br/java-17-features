@@ -1,4 +1,3 @@
 package sealed;
 
-public final class Circle extends Shape {
-}
+public record Circle (Double radius) implements Shape {}

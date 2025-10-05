@@ -1,4 +1,3 @@
 package sealed;
 
-public final class Rectangle extends Shape{
-}
+public record Rectangle(Double width, Double height) implements Shape{}
