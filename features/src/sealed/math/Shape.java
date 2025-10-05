@@ -1,4 +1,4 @@
-package sealed;
+package sealed.math;
 
 public sealed interface Shape permits Circle, Rectangle, Triangle {
 

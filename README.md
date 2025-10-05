@@ -1,12 +1,19 @@
 # Java 17+ Features - Professional Study Track
 
 ## 📚 Overview
-Practical implementation of Java 17+ advanced features as part of senior developer preparation for international market.
+Practical implementation of advanced Java 17+ features as part of senior developer preparation for international remote positions.
 
-## 🎯 Features Covered
-- [x] Sealed Classes
-- [x] Records
-- [x] Pattern Matching
-- [x] Text Blocks
+## 📚 Features Implemented
 
-## 🚀 Getting Started
+### ✅ Records
+- **Person**: Demonstrates compact syntax for data carriers
+- **Validation**: Compact constructor with business rules
+- **Immutability**: Built-in equals, hashCode, toString
+
+### ✅ Sealed Classes
+- **Shape Hierarchy**: Controlled inheritance model
+- **Pattern Matching**: Enhanced type checking and casting
+- **Extensibility**: Designed for future geometric shapes
+
+## 🛠 Technical Stack
+- Java 17

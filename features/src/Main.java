@@ -1,10 +1,8 @@
 import records.Person;
-import sealed.Circle;
-import sealed.Rectangle;
-import sealed.Shape;
-import sealed.Triangle;
-
-import java.awt.*;
+import sealed.math.Circle;
+import sealed.math.Rectangle;
+import sealed.math.Shape;
+import sealed.math.Triangle;
 
 public class Main {
 
