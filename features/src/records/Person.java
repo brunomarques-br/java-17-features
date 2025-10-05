@@ -8,4 +8,8 @@ public record Person(String nome, String email, int age) {
         if(email == null || !email.contains("@")) throw new IllegalArgumentException("Invalid email");
     }
 
+    public boolean isAdult(){
+        return age >= 18;
+    }
+
 }
