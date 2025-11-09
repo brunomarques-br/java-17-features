@@ -1,5 +1,17 @@
 package sealed.math;
 
+
+/**
+ * Description: Interface Sealed Classes
+ * When to use it?
+ * -> Closed Hierarchy
+ * -> Domain models
+ * -> State machines
+ * ---
+ * Benefits
+ * -> The compiler guarantees that only this classes can be implemented when Shape Interface will use
+ *
+ */
 public sealed interface Shape permits Circle, Rectangle, Triangle {
 
     // using instanceof pattern
